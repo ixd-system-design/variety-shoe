@@ -2,5 +2,5 @@
 
 Demonstrates how a JSON data structure (in this case a shoe collection) can be parsed and rendered on a webpage using Javascript. By keeping the data separate from the display logic, we can achieve a clear separation of concerns.
  
-[![Open in Coder](https://ixdcoder.com/open-in-coder.svg)](https://ixdcoder.com/templates/Static/workspace?name=Shoes&mode=auto&param.git_repo=https%3A%2F%2Fbender.sheridanc.on.ca%2Fsikkemha%2Fhtml-css-js)
+[![Open in Coder](https://ixdcoder.com/open-in-coder.svg)](https://ixdcoder.com/templates/Static/workspace?name=Variety+Shoe&mode=auto&param.git_repo=https://bender.sheridanc.on.ca/sikkemha/variety-shoe-json-data-on-a-webpage)
  
