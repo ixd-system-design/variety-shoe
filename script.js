@@ -30,6 +30,10 @@ fetch('shoes.json')
   subtitle.innerHTML = json.subtitle
   body.appendChild(subtitle)
 
+  // let's make a shoe section on the page to hold all the shoes.
+  let section = document.createElement('section')
+  body.appendChild(section)
+
   // "forEach" lets us iterate over each shoe in our JSON data .
   // for each shoe, we build a template and add it to the page. 
   json.shoes.forEach( shoe => {
@@ -41,17 +45,19 @@ fetch('shoes.json')
     // set the CSS background based on our JSON data
     div.style.background = shoe.background
     
-    // The innerHTML string below uses `backticks` instead of "quotes".
+    // The template string below uses `backticks` instead of "quotes".
     // This allows us to embed variables inside the string
     // This is known as a "template literal"
     // see also: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals 
-    div.innerHTML = 
+    let template = 
       `<h4>${shoe.name}</h4>
       <hr/>
       <p>${shoe.description}</p>`
 
-    // add the  template to 
-    document.querySelector('body').appendChild(div)
+    // place the template inside the shoe div
+    div.innerHTML = template
+    // add the  template to the shoe section
+    document.querySelector('section').appendChild(div)
   })
 
   let footer = document.createElement('footer')
