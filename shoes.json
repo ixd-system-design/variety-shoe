@@ -29,5 +29,11 @@
       "description": "comfortable but not too comfortable.",
       "background": "#556677"
     }
+    ,
+    {
+      "name": "Birkenstock",
+      "description": "A solid sandal",
+      "background": "#ff9933"
+    }
   ]
 }
