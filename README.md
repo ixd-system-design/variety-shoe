@@ -5,4 +5,4 @@ This demo shows how a JSON data structure (in this case a shoe collection) can b
 JSON (JavaScript Object Notation) is a [Data Interchange Format](https://developer.mozilla.org/en-US/docs/Glossary/JSON).
 
 # Separation of Concerns
-The principle of "separation of concerns" is a useful idea in many disciplines. Notably, E.W.Dijkstra has described it as a kind of [intelligent thinking](https://www.cs.utexas.edu/~EWD/transcriptions/EWD04xx/EWD447.html).
+The principle of "separation of concerns" is a useful idea in many disciplines. Notably, E.W.Dijkstra has described it as a kind of [intelligent thinking](https://www.cs.utexas.edu/~EWD/transcriptions/EWD04xx/EWD447.html#:~:text=separation%20of%20concerns).
